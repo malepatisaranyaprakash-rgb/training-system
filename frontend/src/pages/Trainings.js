@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 function Trainings() {
   const [trainings, setTrainings] = useState([]);
   const [enrolledIds, setEnrolledIds] = useState([]);
-  const [search, setSearch] = useState('');
 
   const navigate = useNavigate();
 
